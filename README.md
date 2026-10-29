@@ -62,6 +62,13 @@ node ~/.claude/skills/remotion-music-finder/scripts/music.mjs fit public/music/<
 | `analyze <file>` | `<file>.analysis.json` with BPM, beats, bar, LUFS, true peak |
 | `fit <file> --length=s [--start=auto\|s] [--fade=1.5] [--lufs=-16] [--out=…]` | fitted MP3 starting on a bar line |
 
+## Status
+
+v1.0.0: Tempo detection, fitting, previews and the licence record are tested.
+Live search against the APIs has not been verified end to end yet: Openverse
+timed out during testing, and Jamendo and Freesound need keys. If you try it,
+please open an issue with the result.
+
 ## Not legal advice
 
 The licence check follows the Creative Commons terms and the libraries'
