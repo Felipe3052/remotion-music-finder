@@ -64,8 +64,8 @@ node ~/.claude/skills/remotion-music-finder/scripts/music.mjs fit public/music/<
 
 ## Status
 
-v1.0.0: Tempo detection, fitting, previews and the licence record are tested.
-Live search against the APIs has not been verified end to end yet: Openverse
+v1.0.0: Tempo detection, fitting, download and the licence record are tested.
+Live search and preview generation have not been verified end to end yet: Openverse
 timed out during testing, and Jamendo and Freesound need keys. If you try it,
 please open an issue with the result.
 
